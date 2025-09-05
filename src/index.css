@@ -118,3 +118,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+::selection {
+  @apply bg-secondary-foreground text-white;
+}
+
+/* dark mode selection */
+.dark ::selection {
+  @apply bg-white text-black;
+}
+
+.font-sans {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.font-mono {
+  font-family: "IBM Plex Mono", monospace;
+}
