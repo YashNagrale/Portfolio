@@ -12,7 +12,7 @@ export function ModeToggle() {
     <Button
       variant="outline"
       size="icon"
-      className="rounded-full"
+      className={`rounded-full w-8 h-8 my-0.5 mx-2`}
       onClick={toggleTheme}
     >
       <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
